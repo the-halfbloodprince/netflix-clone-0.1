@@ -5,3 +5,8 @@
 .App{
   background-color: #111;
 }
+
+h1::selection,h2::selection,div::selection{
+  background-color: rgba(255,0,0,0.6);
+  color: white;
+}
